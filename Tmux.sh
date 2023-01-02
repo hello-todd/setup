@@ -29,4 +29,14 @@ set-window-option -g mode-keys vi
 
 set -g mouse on
 
+# color
+
+# Status bar colors
+set –g status-bg grey
+set –g status-fg red
+ 
+# highlight and display
+setw –g monitor-activity on
+setw –g visual-activity on
+
 run-shell /opt/tmux-logging/logging.tmux' >> ~/.tmux.conf
