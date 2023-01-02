@@ -32,11 +32,11 @@ set -g mouse on
 # color
 
 # Status bar colors
-set –g status-bg grey
-set –g status-fg red
+set -g status-bg grey
+set -g status-fg red
  
 # highlight and display
-setw –g monitor-activity on
-setw –g visual-activity on
+set -g monitor-activity on
+set -g visual-activity on
 
 run-shell /opt/tmux-logging/logging.tmux' >> ~/.tmux.conf
